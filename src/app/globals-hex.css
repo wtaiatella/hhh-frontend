@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f2e6e1; /* Muito claro */
+    --foreground: #2e1a17; /* Muito escuro */
+
+    --card: #f2e6e1; /* Muito claro */
+    --card-foreground: #2e1a17; /* Muito escuro */
+
+    --popover: #f2e6e1; /* Muito claro */
+    --popover-foreground: #2e1a17; /* Muito escuro */
+
+    --primary: #704031; /* Cor Base */
+    --primary-foreground: #f2e6e1; /* Muito claro */
+
+    --secondary: #8a503b; /* Análogo mais claro */
+    --secondary-foreground: #2e1a17; /* Muito escuro */
+
+    --muted: #8a503b; /* Análogo mais claro */
+    --muted-foreground: #5a2a21; /* Análogo mais escuro */
+
+    --accent: #8a503b; /* Análogo mais claro */
+    --accent-foreground: #2e1a17; /* Muito escuro */
+
+    --destructive: #d93636; /* Mantendo o vermelho para ações destrutivas */
+    --destructive-foreground: #f2e6e1; /* Muito claro */
+
+    --border: #e5d0c9; /* Claro */
+    --input: #e5d0c9; /* Claro */
+    --ring: #2e1a17; /* Muito escuro */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

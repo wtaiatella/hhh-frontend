@@ -1,0 +1,332 @@
+<div class="app-component focused" data-app-component-id="1">
+  <div class="app-component-menu">
+    <div class="app-component-edit">
+      <span
+        class="mbr-btn sortable mbr-icon-arrows-vertical tooltipstered"
+        data-tooltipster="bottom"
+      ></span
+      ><span
+        class="mbr-btn component-params mbr-icon-cog tooltipstered"
+        data-tooltipster="bottom"
+      ></span
+      ><span
+        class="mbr-btn component-remove mbr-icon-trash tooltipstered"
+        data-tooltipster="bottom"
+      ></span
+      ><span
+        class="mbr-btn component-show-more mbr-icon-horizontal-ellipsis tooltipstered"
+        data-tooltipster="bottom"
+        style="display: none"
+      ></span>
+    </div>
+  </div>
+  <div class="app-component-content">
+    <section
+      data-bs-version="5.1"
+      class="header18 cid-uda4NCxcTo mbr-fullscreen"
+      mbr-data-bg-video="this | fakeFilter uname__1 _params.bg.type _params.bg.value.url | toNULL"
+      mbr-class2="this | fakeFilter uname__2 _params.fullScreen _params.bg.parallax"
+      mbr-id="_anchor"
+      data-bg-video="https://www.youtube.com/embed/gvn7ZNoqiWQ?
+        autoplay=1
+        loop=1
+        playlist=gvn7ZNoqiWQ
+        t=20
+        mute=1
+        playsinline=1
+        controls=0
+        showinfo=0
+        autohide=1
+        allowfullscreen=true
+        mode=transparent"
+      id="hero-15-uda4NCxcTo"
+      data-rv-view="2"
+    >
+      <div
+        class="mbr-background-video-preview"
+        style="
+          display: block;
+          background-size: cover;
+          background-position: center center;
+          background-image: url('https://img.youtube.com/vi/gvn7ZNoqiWQ/maxresdefault.jpg');
+        "
+      ></div>
+      <div
+        style="
+          overflow: hidden;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0px;
+          left: 0px;
+        "
+      >
+        <div style="background: #fff; inset: 0px">
+          <div
+            class="mbr-video-foreground"
+            style="
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              width: 100%;
+              height: 100%;
+              pointer-events: none;
+              overflow: hidden;
+            "
+          >
+            <iframe
+              class="mbr-background-video"
+              id="ytplayer-621982"
+              style="
+                margin-top: 0px;
+                max-width: initial;
+                transition-property: opacity;
+                transition-duration: 1000ms;
+                pointer-events: none;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                transform: scale(1.2);
+              "
+              frameborder="0"
+              allowfullscreen=""
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="Beer Commercial | Cinematic Video"
+              width="2560"
+              height="1440"
+              src="https://www.youtube.com/embed/gvn7ZNoqiWQ?
+              autoplay=1&amp;
+              mute=0&amp;
+              controls=0&amp;
+              enablejsapi=1&amp;
+              allowfullscreen=true&amp;
+              iv_load_policy=3
+              modestbranding=1
+              origin=https%3A%2F%2Fa.mobirise.com
+              rel=0
+              mode=transparent
+              showinfo=0
+              html5=1
+              version=3
+              playerapiid=iframe_YTP_1624972482514
+              widget_referrer=https%3A%2F%2Fa.mobirise.com%2F
+              widgetid=1
+              "
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="mbr-overlay"
+        mbr-if="this | fakeFilter uname__29 _params.overlay _params.bg.type"
+        mbr-opacity="this | fakeFilter uname__30 _params.overlayOpacity | toNULL"
+        mbr-bg-color="this | fakeFilter uname__31 _params.overlayColor | toNULL"
+        style="opacity: 0.5; background-color: rgb(0, 0, 0)"
+      ></div>
+      <div
+        mbr-class2="this | fakeFilter uname__32 _params.fullWidth _params.fullWidth"
+        class="container-fluid"
+      >
+        <div class="row">
+          <div
+            mbr-class2="this | fakeFilter uname__33 _params.contentWidth"
+            class="content-wrap col-12 col-md-12"
+          >
+            <h1
+              class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1"
+              data-app-selector=".mbr-section-title"
+              mbr-if="this | fakeFilter uname__36 _params.showTitle"
+              mbr-class-var="uname__34"
+              mbr-on-change-theme-style="uname__35"
+              data-app-edit="content"
+              mbr-static-html="uname__37"
+              mbr-content-edit="uname__37"
+              data-app-placeholder="Type Text"
+              mbr-on-change-component-node="uname__38"
+              data-class-var="display-1"
+            >
+              <b>Beer Bonanza</b>
+            </h1>
+            <h2
+              class="mbr-section-subtitle mbr-fonts-style mbr-white mb-4 display-2"
+              data-app-selector=".mbr-section-subtitle"
+              mbr-if="this | fakeFilter uname__41 _params.showSubtitle"
+              mbr-class-var="uname__39"
+              mbr-on-change-theme-style="uname__40"
+              data-app-edit="content"
+              mbr-static-html="uname__42"
+              mbr-content-edit="uname__42"
+              data-app-placeholder="Type Text"
+              mbr-on-change-component-node="uname__43"
+              data-app-remove-it="true"
+              data-class-var="display-2"
+              style="display: none"
+            >
+              Header Subtitle
+            </h2>
+            <p
+              class="mbr-fonts-style mbr-text mbr-white mb-4 display-7"
+              mbr-if="this | fakeFilter uname__46 _params.showText"
+              data-app-selector=".mbr-text, .mbr-section-btn"
+              mbr-class-var="uname__44"
+              mbr-on-change-theme-style="uname__45"
+              data-app-edit="content"
+              mbr-static-html="uname__47"
+              mbr-content-edit="uname__47"
+              data-app-placeholder="Type Text"
+              mbr-on-change-component-node="uname__48"
+              data-class-var="display-7"
+            >
+              Welcome to the ultimate destination for home craft beer
+              enthusiasts! Dive into a world of brewing magic with articles,
+              videos, suppliers, events, and tools.
+            </p>
+            <div
+              class="mbr-section-btn"
+              mbr-if="this | fakeFilter uname__49 _params.showButtons"
+              data-toolbar="-mbrBtnMove"
+              mbr-buttons="uname__52"
+              data-app-edit="buttons"
+              mbr-static-html="uname__50"
+              mbr-content-edit="uname__50"
+              mbr-on-change-component-node="uname__51"
+              mbr-class-var="uname__53"
+              mbr-on-change-theme-style="uname__54"
+              data-class-var="display-7"
+            >
+              <a
+                class="btn btn-white-outline display-7"
+                href="https://mobiri.se"
+                data-app-placeholder="Type Text"
+                data-app-btn="true"
+                >Explore More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <style>
+    .cid-uda4NCxcTo {
+      display: flex;
+    }
+    @media (min-width: 768px) {
+      .cid-uda4NCxcTo {
+        align-items: flex-end;
+      }
+      .cid-uda4NCxcTo .row {
+        justify-content: flex-start;
+      }
+      .cid-uda4NCxcTo .content-wrap {
+        padding: 1rem 3rem;
+      }
+    }
+    @media (max-width: 991px) and (min-width: 768px) {
+      .cid-uda4NCxcTo .content-wrap {
+        min-width: 50%;
+      }
+    }
+    @media (max-width: 767px) {
+      .cid-uda4NCxcTo {
+        -webkit-align-items: center;
+        align-items: flex-end;
+      }
+      .cid-uda4NCxcTo .mbr-row {
+        -webkit-justify-content: center;
+        justify-content: center;
+      }
+      .cid-uda4NCxcTo .content-wrap {
+        width: 100%;
+      }
+    }
+    .cid-uda4NCxcTo .mbr-fallback-image.disabled {
+      display: none;
+    }
+    .cid-uda4NCxcTo .mbr-fallback-image {
+      display: block;
+      background-size: cover;
+      background-position: center center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-image: url("https://a.mobirise.com/app/themes/startm5/components/_images/background1.jpg");
+    }
+    .cid-uda4NCxcTo .mbr-section-title,
+    .cid-uda4NCxcTo .mbr-section-subtitle {
+      text-align: left;
+      color: #ffc091;
+    }
+    .cid-uda4NCxcTo .mbr-text,
+    .cid-uda4NCxcTo .mbr-section-btn {
+      text-align: left;
+    }
+  </style>
+</div>
+
+
+
+
+
+
+
+export default function Introduction() {
+  return (
+    <div>
+      <h1>Introduction</h1>
+      <p>video</p>
+      <div
+        style={{
+          overflow: "hidden",
+          position: "relative",
+          width: "100%",
+          height: "800px" /* Altura da div */,
+          pointerEvents: "none",
+        }}
+      >
+        <iframe
+          style={{
+            margin: 0,
+            position: "absolute",
+            maxWidth: "initial",
+            width: "100%",
+            height: "100%",
+            minHeight: "100%",
+            zIndex: -1,
+            opacity: 0.5,
+            objectFit: "cover",
+            top: 0,
+            left: 0,
+          }}
+          width="2560"
+          height="1440"
+          src="https://www.youtube.com/embed/eIqQJKXAH-Q?autoplay=1&mute=1&loop=1&playlist=eIqQJKXAH-Q&controls=0&showinfo=0&modestbranding=1&mode=transparent&playsinline=1&autohide=1"
+          title="Beer short loop"
+          allow="accelerometer; autoplay; encrypted-media, gyroscope;"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen={false}
+        ></iframe>
+        <div
+          style={{
+            position: "relative",
+            zIndex: 1,
+            color: "#fff",
+            textAlign: "center",
+            padding: "20px",
+          }}
+        >
+          <h1>Seu Texto Aqui</h1>
+          <p>Adicione qualquer conteúdo que desejar sobre o vídeo.</p>
+        </div>
+      </div>
+
+      <p>animação</p>
+      <p>mensagem</p>
+    </div>
+  );
+}
