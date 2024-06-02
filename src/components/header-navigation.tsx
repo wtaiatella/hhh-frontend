@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+
 import Link from "next/link";
-import { Menu, Smile, UserRound } from "lucide-react";
+import { Menu, UserRound } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuLink,
@@ -11,7 +11,6 @@ import {
   NavigationMenuContent,
   navigationMenuTriggerStyle,
 } from "./hhh/navigation-menu";
-import NavigationMenuDemo from "./ui/examples/navigation-menu-shadcn";
 
 export default function HeaderNavigation() {
   return (
@@ -30,6 +29,7 @@ export default function HeaderNavigation() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
+
       {/*desktop menu*/}
       <NavigationMenu className="hidden md:block max-w-none ">
         <NavigationMenuList className="text-headertext">
