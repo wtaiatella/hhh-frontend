@@ -42,7 +42,7 @@ export default function Introduction() {
             height={height}
             src="https://www.youtube.com/embed/OLHK9fa8evM?autoplay=1&mute=1&controls=0&loop=1&playlist=OLHK9fa8evM&showinfo=0&modestbranding=1&mode=transparent&playsinline=0&autohide=0&iv_load_policy=3"
             title="Beer short loop"
-            allow="accelerometer; autoplay; encrypted-media, gyroscope;"
+            allow="accelerometer; autoplay; gyroscope;"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen={false}
           ></iframe>
