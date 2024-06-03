@@ -14,6 +14,7 @@ export default function Header() {
               width={768}
               height={512}
               alt="hhh logo"
+              priority
             />
           </Link>
           <HeaderNavigation />
