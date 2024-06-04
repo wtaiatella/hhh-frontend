@@ -80,7 +80,5 @@
 }
 
 .container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
+  @apply mx-auto w-full max-w-7xl px-1 md:px-8;
 }
