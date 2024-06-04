@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-export default function Introduction() {
+export default function HeroSection() {
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
 

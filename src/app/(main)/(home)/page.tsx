@@ -1,13 +1,13 @@
 import Newsletter from "@/components/newsletter";
 import Events from "./events";
-import Introduction from "./introduction";
+import HeroSection from "./HeroSection";
 import Recipes from "./recipes";
 import Suppliers from "./suppliers";
 
 export default function Home() {
   return (
     <main>
-      <Introduction />
+      <HeroSection />
       <Events />
       <Suppliers />
       <Recipes />
