@@ -1,13 +1,14 @@
 "use client";
 import { fontSerifBitter } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export default function HeroSection() {
-  const [width, setWidth] = useState(0);
-  const [height, setHeight] = useState(0);
+  const [iframeWidth, setIframeWidth] = useState(0);
+  const [iframeHeight, setIframeHeight] = useState(0);
+  const [heroHeight, setHeroHeight] = useState(0);
 
-  const handleResize = () => {
+  const handleResize = useCallback(() => {
     console.log("chamada handleResize");
     const windowHeight = window.innerHeight;
     const windowWidth = window.innerWidth;
@@ -28,22 +29,28 @@ export default function HeroSection() {
       console.log("Info bottom:", infoBottom);
     }
 
-    let iframeHeight = windowHeight;
-    if (windowHeight < infoBottom) iframeHeight = infoBottom;
+    let heroSectionHeight = windowHeight;
+    if (windowHeight < infoBottom) heroSectionHeight = infoBottom;
+    setHeroHeight(heroSectionHeight);
+    console.log("Hero height:", heroSectionHeight);
 
-    const windowsResolutionRate = window.innerWidth / iframeHeight;
+    const windowsResolutionRate = window.innerWidth / heroSectionHeight;
     if (windowsResolutionRate < 1.77) {
-      setWidth(iframeHeight * (16 / 9));
-      setHeight(iframeHeight);
+      setIframeWidth(heroSectionHeight * (16 / 9));
+      setIframeHeight(heroSectionHeight);
+      console.log("Set iframe height:", heroSectionHeight);
+      console.log("Set iframe width:", heroSectionHeight * (16 / 9));
     } else {
-      setWidth(window.innerWidth);
-      setHeight(window.innerWidth / (16 / 9));
+      setIframeWidth(window.innerWidth);
+      setIframeHeight(window.innerWidth / (16 / 9));
+      console.log("Set iframe height:", window.innerWidth / (16 / 9));
+      console.log("Set iframe width:", window.innerWidth);
     }
-  };
+  }, []);
 
   useEffect(() => {
     handleResize();
-  }, []);
+  });
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
@@ -51,24 +58,24 @@ export default function HeroSection() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [width, height]);
+  }, [iframeWidth, iframeHeight, handleResize]);
 
   return (
     <section>
       <div
         id="heroIframe"
         className="relative w-[100vw-18px] h-screen overflow-hidden"
-        style={{ height: `${height}px` }}
+        style={{ height: `${heroHeight}px` }}
       >
         <div className="absolute top-0 left-0 w-full h-full  ">
           <iframe
             className="absolute top-1/2 left-1/2 m-0 -z-10 opacity-80 brightness-50 -translate-x-1/2 -translate-y-1/2"
             style={{
-              width: `"${width}"`,
-              height: `"${height}"`,
+              width: `"${iframeWidth}"`,
+              height: `"${iframeHeight}"`,
             }}
-            width={width}
-            height={height}
+            width={iframeWidth}
+            height={iframeHeight}
             src="https://www.youtube.com/embed/OLHK9fa8evM?autoplay=1&mute=1&controls=0&loop=1&playlist=OLHK9fa8evM&showinfo=0&modestbranding=1&mode=transparent&playsinline=0&autohide=0&iv_load_policy=3"
             title="Beer short loop"
             allow="accelerometer; autoplay; gyroscope;"
