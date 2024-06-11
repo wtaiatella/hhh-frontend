@@ -47,9 +47,12 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        highlight: "var(--highlight)",
       },
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        sansInter: ["var(--font-sansInter)", ...fontFamily.sans],
+        serifBitter: ["var(--font-serifBitter)", ...fontFamily.serif],
+        monoJetBrains: ["var(--font-monoJetBrains)", ...fontFamily.mono],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -71,6 +74,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       screens: {
+        "2sm": "450px",
         laptop: "1400px",
       },
     },
