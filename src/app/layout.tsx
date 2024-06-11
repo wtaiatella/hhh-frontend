@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 
-import { fontSans } from "@/lib/fonts";
+import { fontSansInter } from "@/lib/fonts";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { ThemeProvider } from "@/components/providers";
@@ -73,7 +73,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased bg-[url('/bg-site.jpg')] bg-repeat dark:bg-none",
-          fontSans.variable
+          fontSansInter.variable
         )}
       >
         <ThemeProvider
