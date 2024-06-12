@@ -67,9 +67,9 @@ function NavigationMenuItems() {
         </NavigationMenuItem>
       </div>
 
-      <div className="h-1 bg-zinc-200 dark:bg-zinc-800" />
+      <div className="h-1 bg-zinc-200 dark:bg-zinc-800 md:hidden" />
 
-      <NavigationMenuItem className="flex items-center md:pr-2">
+      <NavigationMenuItem className="flex items-center md:pr-8">
         <UserRound className="md:text-headertext size-5 inline-block" />
         <Link href="/login" legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
