@@ -83,61 +83,61 @@ export default function HeroSection() {
             allowFullScreen={false}
           ></iframe>
         </div>
-        <div
-          id="heroInfo"
-          className="text-white text-center justify-items-center flex flex-col items-center"
-        >
-          <h1
-            className={cn(
-              "mt-44 px-4 leading-4 w-full text-[42px] font-serifBitter",
-              "2sm:text-5xl 2sm:mt-48 md:text-6xl",
-              fontSerifBitter.variable
-            )}
+        <div style={{ height: `${heroHeight}px` }}>
+          <div
+            id="heroInfo"
+            className="text-white text-center justify-items-center flex flex-col items-center"
           >
-            YOUR BEER{" "}
-            <span
-              className="text-highlight leading-1 font-bold text-[48px]
-            2sm:text-6xl md:text-7xl"
+            <h1
+              className={cn(
+                "mt-44 px-4 leading-4 w-full text-[42px] font-serifBitter",
+                "2sm:text-5xl 2sm:mt-48 md:text-6xl",
+                fontSerifBitter.variable
+              )}
             >
-              COMMUNITY
-            </span>{" "}
-            AWAITS!
-          </h1>
+              YOUR BEER{" "}
+              <span
+                className="text-highlight leading-1 font-bold text-[48px]
+            2sm:text-6xl md:text-7xl"
+              >
+                COMMUNITY
+              </span>{" "}
+              AWAITS!
+            </h1>
 
-          <p
-            className="mt-8 w-full max-w-3xl text-3xl px-4
+            <p
+              className="mt-8 w-full max-w-3xl text-3xl px-4
             2sm:text-4xl 2sm:mt-12
             sm:px-8 md:text-5xl"
-          >
-            <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
-              Find
-            </span>{" "}
-            events,{" "}
-            <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
-              share
-            </span>{" "}
-            your brewing secrets, and{" "}
-            <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
-              explore
-            </span>{" "}
-            the world of craft beer.
-          </p>
+            >
+              <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
+                Find
+              </span>{" "}
+              events,{" "}
+              <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
+                share
+              </span>{" "}
+              your brewing secrets, and{" "}
+              <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
+                explore
+              </span>{" "}
+              the world of craft beer.
+            </p>
 
-          <p
-            className="mt-10 w-full max-w-3xl text-3xl  px-4 pb-10
+            <p
+              className="mt-10 w-full max-w-3xl text-3xl  px-4 pb-10
             2sm:text-4xl 2sm:mt-14
             sm:px-8 md:text-5xl"
-          >
-            Join{" "}
-            <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
-              Hop Head Hub
-            </span>{" "}
-            and connect with a community of beer lovers.
-          </p>
+            >
+              Join{" "}
+              <span className="text-highlight font-bold text-4xl 2sm:text-5xl md:text-6xl">
+                Hop Head Hub
+              </span>{" "}
+              and connect with a community of beer lovers.
+            </p>
+          </div>
         </div>
       </div>
-      <p>animação</p>
-      <p>mensagem</p>
     </section>
   );
 }
