@@ -77,6 +77,11 @@ const config = {
         "2sm": "450px",
         laptop: "1400px",
       },
+      spacing: {
+        "76": "304px",
+        "114": "456px",
+        "120": "480px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
