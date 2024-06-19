@@ -91,14 +91,14 @@ export default function AnimatedTextSection() {
   return (
     <div
       className={cn(
-        "grid font-serifBitter font-semibold leading-[4rem] text-primary",
+        "mt-16 grid font-serifBitter font-semibold leading-[2rem] sm:leading-[3rem] lg:leading-[4rem] text-primary",
         fontSerifBitter.variable
       )}
       id="animatedText"
     >
       <p
         id="text1"
-        className={cn("mt-12 w-max")}
+        className={cn("w-max")}
         style={{
           fontSize: `${fontSizeText}rem`,
           marginLeft: `${marginLeftText1}px`,

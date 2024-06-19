@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 export default function IllustrativeSection() {
   return (
-    <div className="mt-12 lg:mt-20 container grid grid-cols-1 md:grid-cols-2 justify-items-center gap-16 text-center ">
+    <div className="mt-16 lg:mt-20 container grid grid-cols-1 md:grid-cols-2 justify-items-center gap-16 text-center ">
       <div>
         <h1
           className={cn(
