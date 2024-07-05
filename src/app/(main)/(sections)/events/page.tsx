@@ -1,6 +1,6 @@
 export default function Events() {
   return (
-    <div className="p-24">
+    <div className="px">
       <p>Events list</p>
     </div>
   );
