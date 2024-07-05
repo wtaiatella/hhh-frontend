@@ -13,7 +13,7 @@
     --popover: 20 20% 95%;
     --popover-foreground: 20 20% 10%;
 
-    --primary: 20 30% 35%;
+    --primary: #704031;
     --primary-foreground: 20 20% 95%;
 
     --secondary: 20 30% 45%;
@@ -34,7 +34,6 @@
 
     --headertext: 20 20% 95%;
 
-    --padrao-vermelho: #704031;
     --highlight: #d0a525;
 
     --radius: 0.5rem;
