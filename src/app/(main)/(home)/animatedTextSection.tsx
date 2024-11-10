@@ -13,7 +13,6 @@ export default function AnimatedTextSection() {
     const divElement = document.getElementById("animatedText");
     const text1Element = document.getElementById("text1");
     const text3Element = document.getElementById("text2");
-
     const windowWidth = window.innerWidth;
     let divTopWindow = 0;
 

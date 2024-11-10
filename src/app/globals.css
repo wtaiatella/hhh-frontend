@@ -4,37 +4,68 @@
 
 @layer base {
   :root {
-    --background: 20 20% 95%;
-    --foreground: 20 20% 10%;
+    --bole-100: #170d0a;
+    --bole-200: #2d1a14;
+    --bole-300: #44271e;
+    --bole-400: #553025;
+    --bole-500: #704031;
+    --bole-600: #8E513E;
+    --bole-700: #BB7763;
+    --bole-800: #D3A99C;
+    --bole-850: #ECDAD4;
+    --bole-900: #F9F3F1;
+    --satin_gold-100: #231C06;
+    --satin_gold-200: #57450F;
+    --satin_gold-300: #8B6E18;
+    --satin_gold-400: #AD8A1F;
+    --satin_gold-500: #d0a525;
+    --satin_gold-600: #E0BD52;
+    --satin_gold-700: #EAD186;
+    --satin_gold-800: #F3E4BA;
+    --satin_gold-900: #FCF8EE; 
+    --jet-100: #09090a;
+    --jet-200: #131314;
+    --jet-300: #1c1c1e;
+    --jet-400: #262628;
+    --jet-500: #2f2f31;
+    --jet-600: #58585c;
+    --jet-700: #818186;
+    --jet-800: #ababae;
+    --jet-900: #d5d5d7;
 
-    --card: 20 20% 95%;
-    --card-foreground: 20 20% 10%;
+    --background: var(--bole-900);
+    --foreground: var(--bole-200);
 
-    --popover: 20 20% 95%;
-    --popover-foreground: 20 20% 10%;
+    --card: var(--bole-900);
+    --card-foreground: var(--bole-200);
 
-    --primary: #704031;
-    --primary-foreground: 20 20% 95%;
+    --popover: var(--bole-900);
+    --popover-foreground: var(--bole-200);
 
-    --secondary: 20 30% 45%;
-    --secondary-foreground: 20 20% 10%;
+    --primary: var(--bole-500)
+    --primary-foreground: var(--bole-900);
 
-    --muted: 20 30% 75%;
-    --muted-foreground: 20 30% 25%;
+    --secondary: var(--bole-700)
+    --secondary-foreground: var(--bole-200);
 
-    --accent: 20 50% 50%;
-    --accent-foreground: 20 20% 95%;
+    --muted: var(--bole-800);
+    --muted-foreground: var(--bole-400);
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --accent: var(--satin_gold-600); 
+    --accent-foreground: var(--bole-900);
 
-    --border: 20 30% 75%;
-    --input: 20 30% 75%;
-    --ring: 20 30% 35%;
+    --destructive: var(--satin_gold-500);
+    --destructive-foreground: var(--bole-900);
 
-    --headertext: 20 20% 95%;
+    --border: var(--bole-800);
+    --input: var(--bole-800);
+    --ring: var(--bole-400);
 
-    --highlight: #d0a525;
+    --headertext: var(--bole-900);
+
+    --highlight: var(--satin_gold-500);
+
+ 
 
     --radius: 0.5rem;
   }
@@ -87,3 +118,35 @@
 .container {
   @apply mx-auto w-full max-w-7xl px-6 md:px-8;
 }
+
+
+
+ 
+    --bole-100: '#170d0a', 
+    --bole-200: '#2d1a14', 
+    --bole-300: '#44271e', 
+    --bole-400: '#5b3428', 
+    --bole-500: '#704031', 
+    --bole-600: '#a25c47', 
+    --bole-700: '#c0816e', 
+    --bole-800: '#d5ab9f', 
+    --bole-900: '#ead5cf',
+    --satin_sheen_gold-100: '#2a2107', 
+    --satin_sheen_gold-200: '#53420f', 
+    --satin_sheen_gold-300: '#7d6316', 
+    --satin_sheen_gold-400: '#a6841d', 
+    --satin_sheen_gold-500: '#d0a525', 
+    --satin_sheen_gold-600: '#dfba4b', 
+    --satin_sheen_gold-700: '#e7cb78', 
+    --satin_sheen_gold-800: '#efdda5', 
+    --satin_sheen_gold-900: '#f7eed2',  
+    --jet-100: '#09090a', 
+    --jet-200: '#131314', 
+    --jet-300: '#1c1c1e', 
+    --jet-400: '#262628', 
+    --jet-500: '#2f2f31', 
+    --jet-600: '#58585c', 
+    --jet-700: '#818186', 
+    --jet-800: '#ababae', 
+    --jet-900: '#d5d5d7',
+
