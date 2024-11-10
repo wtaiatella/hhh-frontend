@@ -59,7 +59,7 @@ function NavigationMenuItems() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/recipes" legacyBehavior passHref>
+          <Link href="/patterns" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Recipes
             </NavigationMenuLink>

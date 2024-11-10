@@ -1,7 +1,11 @@
+import HeroSection from "./heroSection";
+import SearchSection from "./searchSection";
+
 export default function Events() {
   return (
-    <div className="px">
-      <p>Events list</p>
-    </div>
+    <main>
+      <HeroSection />
+      <SearchSection />
+    </main>
   );
 }

@@ -20,7 +20,7 @@ const config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "var(--primary)",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -36,7 +36,7 @@ const config = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
+          DEFAULT: "var(--accent)",
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
@@ -82,6 +82,9 @@ const config = {
         "114": "456px",
         "120": "480px",
       },
+      gridTemplateColumns: {
+        'auth': '1fr 2fr',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
